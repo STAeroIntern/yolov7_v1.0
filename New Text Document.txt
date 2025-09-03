@@ -1,0 +1,1 @@
+nuctl delete functions pth-facebookresearch-sam-vit-h --force
