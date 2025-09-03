@@ -13,3 +13,6 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source yourvid
 On image:
 
 python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
+
+python export.py --weights yolov7-tiny.pt --grid --end2end --simplify \
+        --topk-all 100 --iou-thres 0.65 --conf-thres 0.35 --img-size 640 640 --max-wh 640
